@@ -334,6 +334,7 @@ namespace CharacterCreator_2._0
                 spriteBatch.Draw(blank, fullScreen, Color.Lerp(Color.Black, Color.Transparent, lerpConst));
                 spriteBatch.End();
             }
+
             Cursor.Draw(spriteBatch);
             base.Draw(gameTime);
         }
